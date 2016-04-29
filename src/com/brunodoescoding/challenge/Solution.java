@@ -12,7 +12,7 @@ public class Solution {
 		int totalOfInputs = scanner.nextInt();
 
 		if(totalOfInputs < 1 || totalOfInputs > 10) {
-			throw new IllegalArgumentException("O numero de sequencias a serem enviadas deve estar no range de 1 a 10");
+			throw new IllegalArgumentException("O numero de sequencias a serem enviadas deve estar no range de 1 a 10.");
 		}
 
 		List<String> sequences = new ArrayList<>();
